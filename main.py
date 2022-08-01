@@ -7,7 +7,7 @@ import pyautogui
 def main () -> None:
     while True:
             key = "l"
-            if keyboard.is_pressed("j"):
+            if keyboard.is_pressed("alt"):
                 im = pyautogui.screenshot(("reticle.png"), region=(957,536,7,7))#Change both of these to match your reticle
                 time.sleep(0.2)
                 im2 = pyautogui.screenshot(("offset.png"), region=(957,536,7,7)) #change me too!
